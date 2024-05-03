@@ -93,4 +93,5 @@ plt.grid(True) #Le agregamos la cuadricula
 plt.xlabel('Meses') #Nombre del eje x
 plt.ylabel('Ventas') #Nombre del eje y
 plt.title('Tendencia de ventas') #Titulo del grafico
+plt.xticks(rotation=70) 
 plt.show() #Mostramos la grafica despues de definir los elementos
